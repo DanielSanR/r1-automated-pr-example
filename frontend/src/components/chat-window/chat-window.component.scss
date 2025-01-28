@@ -1,0 +1,21 @@
+
+.chat-container {
+  height: 100vh;
+  padding: 20px;
+  .messages {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  .error {
+    padding: 20px;
+    text-align: center;
+    color: #ff4444;
+  }
+  .loading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+}
+      
