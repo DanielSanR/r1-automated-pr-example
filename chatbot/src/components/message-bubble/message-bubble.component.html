@@ -1,0 +1,10 @@
+
+<div class="message-bubble" [class.bot]="isBotMessage()">
+  <div class="message-content">
+    {{ message.text }}
+  </div>
+  <div class="message-timestamp">
+    {{ message.timestamp | date: 'shortTime' }}
+  </div>
+</div>
+      
