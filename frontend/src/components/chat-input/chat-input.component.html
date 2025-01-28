@@ -1,0 +1,13 @@
+
+<div class="input-container">
+  <input
+    type="text"
+    [(ngModel)]="messageText"
+    (keypress)="sendMessage()"
+    placeholder="Type your message..."
+  />
+  <button (click)="sendMessage()">
+    <mat-icon>send</mat-icon>
+  </button>
+</div>
+      
