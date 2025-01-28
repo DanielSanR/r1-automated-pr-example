@@ -1,0 +1,33 @@
+
+{
+  "compileOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "out-tsc",
+    "rootDir": "src",
+    "sourceMap": true,
+    "inlineSources": true,
+    "lib": [
+      "es2020",
+      "dom",
+      "dom.iterable",
+      "es6"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+      
