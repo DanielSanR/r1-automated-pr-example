@@ -1,0 +1,37 @@
+
+.message-bubble {
+  max-width: 70%;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.message-bubble.bot {
+  background: #f0f0f0;
+  margin-left: auto;
+}
+
+.message-bubble:not(.bot) {
+  background: #007bff;
+  color: white;
+  margin-right: auto;
+}
+
+.message-content {
+  word-break: break-word;
+}
+
+.message-timestamp {
+  font-size: 0.8em;
+  opacity: 0.7;
+  text-align: right;
+}
+
+.bot .message-timestamp {
+  color: #666;
+}
+      
