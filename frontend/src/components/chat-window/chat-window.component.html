@@ -1,0 +1,14 @@
+
+<div class="chat-container">
+  <div class="messages" *ngIf="!error">
+    <message-bubble *ngFor="let message of messages" [message]="message"></message-bubble>
+  </div>
+  <div class="error" *ngIf="error">
+    <p class="error-message">{{ error }}</p>
+  </div>
+  <div class="loading" *ngIf="isLoading">
+    <mat-progress-spinner diameter="24"></mat-progress-spinner>
+  </div>
+  <chat-input></chat-input>
+</div>
+      
