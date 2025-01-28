@@ -1,0 +1,13 @@
+
+        <div class="chat-input-container">
+          <input
+            type="text"
+            [formControl]="messageControl"
+            (keydown.enter)="sendMessage()"
+            placeholder="Type your message..."
+          >
+          <button matButton="icon" matSuffix (click)="sendMessage()">
+            <mat-icon>send</mat-icon>
+          </button>
+        </div>
+      
