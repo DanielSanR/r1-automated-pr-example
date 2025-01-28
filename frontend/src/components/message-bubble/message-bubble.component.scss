@@ -1,0 +1,27 @@
+
+.message-bubble {
+  max-width: 70%;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  word-wrap: break-word;
+  .message-content {
+    margin-bottom: 5px;
+  }
+  .timestamp {
+    font-size: 0.8rem;
+    color: #666;
+  }
+}
+
+.user {
+  background-color: #2196F3;
+  color: white;
+  margin-left: auto;
+}
+
+.bot {
+  background-color: #f1f1f1;
+  margin-right: auto;
+}
+      
